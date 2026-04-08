@@ -1,105 +1,106 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+# 请根据您的实际情况选择 baseURL
+baseURL: "https://frankcongwang.github.io/"  # 示例：GitHub Pages
+
+title: "Cong Wang"
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
+
 pagination:
   pagerSize: 20
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 menu:
-    main:
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Presentation
-          url: presentation/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+  main:
+    - name: Papers
+      url: papers/
+      weight: 2
+    - name: Presentations
+      url: presentations/
+      weight: 3
+    - name: CV
+      url: cv/
+      weight: 4
 
 params:
-    description: "This website hosts Frank Cong Wang's research papers, presentation, data, curriculum vitae, and contact information."
-    author:FrankCong Wang
-    # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Dr Frank Cong Wang
-          subtitle: "I am a post doc in School of physics, Peking University."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: Papers
-              url: papers/
-            - name: Presentation
-              url: Presentation/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://
+  description: "Cong Wang's academic website featuring research papers and presentations in physical chemistry and computational physics."
+  author: "Cong Wang"
+  
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: true
+  
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  
+  MainSections: ["papers", "presentations"]
+  
+  ShowToc: true
+  disableScrollToTop: false
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  
+  comments: false
+  math: true
+  
+  profileMode:
+    enabled: true
+    title: "Dr. Cong Wang (王聪)"
+    subtitle: |
+      Postdoctoral Researcher
+      
+      **School of Physics, Peking University**
+      
+      Research: PIMD, Fermion Sign Problem, Lee-Yang Zeros
+    imageUrl: "picture.jpeg"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: Papers
+        url: papers/
+      - name: Presentations
+        url: presentations/
+      - name: CV
+        url: cv/
+      - name: Tags
+        url: tags/
 
-    socialIcons:
-        - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/
-        - name: GitHub
-          url: https://github.com/pmichaillat
+  socialIcons:
+    - name: Email
+      url: "mailto:frankcongwang@pku.edu.cn"
+    - name: Google Scholar
+      url: "https://scholar.google.com/citations?user=YOUR_ID"
+    - name: GitHub
+      url: "https://github.com/frankcongwang"
+    - name: Location
+      url: "https://maps.google.com/?q=Peking+University+School+of+Physics"
 
-    assets:
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: ""
-      icon: favicon.ico
-      iconHeight: 18
+  assets:
+    disableScrollBarStyle: true
+  
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+  
+  label:
+    text: "Cong Wang"
+    icon: favicon.ico
+    iconHeight: 18
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
