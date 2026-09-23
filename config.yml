@@ -80,7 +80,7 @@ params:
     - name: Email
       url: "mailto:frankcongwang@pku.edu.cn"
     - name: Google Scholar
-      url: "/https://scholar.google.com/citations?hl=zh-CN&pli=1&user=08iOzh0AAAAJ"
+      url: "https://scholar.google.com/citations?user=08iOzh0AAAAJ"
     - name: GitHub
       url: "https://github.com/frankcongwang"
     - name: Location
